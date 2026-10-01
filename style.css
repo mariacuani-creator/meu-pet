@@ -1,149 +1,165 @@
 *{
- margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family:'Playwrite Deutschland Schulausgangschrift Guides',sans-serif;
-}
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'Playwrite Deutschland Schulausgangschrift Guides',sans-serif;
+   }
+   
+   li{
+       display: inline-block;
+   }
+   nav{
+       display: inline-block;
+   }
+   header{
+       margin: 30px 0px 144px 70px
+   }
+   .link-menu{
+       font-weight: 600;
+       font-size: 24px;
+       line-height: 28px;
+       margin: 0 20px 0 0 ;
+       cursor: pointer;
+       transition:opacity 0.2s;
+       color: #006885;
+       text-decoration:none;
+   }
+   
+   a:hover{
+       opacity:0.7;  
+   }
+   .botao-login{
+       width: 130px;
+       height: 38px;
+   border-radius: 20px;
+   background-color:#00ffff;
+   border: none;
+   font-size: 20px;
+   font-weight: 600px;
+   color: rgb(62, 70, 70);
+   transition:opacity 0.2s;
+   cursor: pointer;
+   }
+   .botao-login:hover{
+       opacity:0.7;
+   }
+   .logo{
+       width:40%;
+       vertical-align: middle;
+   }
+   .texto{
+       width:40% ;
+       display:inline-block;
+       vertical-align: middle;
+       margin: 0 0 0 50px;
+   }
+   main{
+       text-align:center;
+   }
+   .botao-explore{
+       width: 180px;
+       height: 40px;
+       cursor: pointer;
+       background: #6ce7f0;
+       border: none;
+       border-radius: 20px;
+       font-size: 14px;
+       font-weight: 500;
+       box-shadow: 0 0 5px #0483be;
+       transition: opacity 0.3s;
+   }
+   .botao-explore:hover{
+       opacity: 0.7;
+   }
+   .titulo{
+       font-size: 40px;
+       font-weight: 900;
+       color: #07dbca;
+   }
+   .sub-titulo{
+       color: #07c2c2;
+       line-height: 60px;
+   
+   }
+   .paragrafo{
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 25px;
+       color: #000000;
+       text-align: justify;
+       margin: 20px 0 30px 0;
+       max-width: 500px;
+   }
+   footer{
+       text-align: center;
+       background: #f0f6f8;
+       padding: 50px;
+       font-size: 14px;
+       margin-top: 100px;
+   }
+   .img-dog{
+       display: block;
+       width: 70%;
+       height: 450px;
+       object-fit: cover;
+       margin: 80px auto 0 auto;
+       border-radius: 15px;
+   }
+   .lista-servicos{
+    width:240px;
+   }
+   .servicos{
 
-li{
-    display: inline-block;
-}
-nav{
-    display: inline-block;
-}
-header{
-    margin: 30px 0px 144px 70px
-}
-.link-menu{
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0 20px 0 0 ;
-    cursor: pointer;
-    transition:opacity 0.2s;
-    color: #006885;
-    text-decoration:none;
-}
+   }
+   .h2-servico{
 
-a:hover{
-    opacity:0.7;  
-}
-.botao-login{
-    width: 130px;
-    height: 38px;
-border-radius: 20px;
-background-color:#00ffff;
-border: none;
-font-size: 20px;
-font-weight: 600px;
-color: rgb(62, 70, 70);
-transition:opacity 0.2s;
-cursor: pointer;
-}
-.botao-login:hover{
-    opacity:0.7;
-}
-.logo{
-    width:40%;
-    vertical-align: middle;
-}
-.texto{
-    width:40% ;
-    display:inline-block;
-    vertical-align: middle;
-    margin: 0 0 0 50px;
-}
-main{
-    text-align:center;
-}
-.botao-explore{
-    width: 180px;
-    height: 40px;
-    cursor: pointer;
-    background: #6ce7f0;
-    border: none;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 500;
-    box-shadow: 0 0 5px #0483be;
-    transition: opacity 0.3s;
-}
-.botao-explore:hover{
-    opacity: 0.7;
-}
-.titulo{
-    font-size: 40px;
-    font-weight: 900;
-    color: #07dbca;
-}
-.sub-titulo{
-    color: #07c2c2;
-    line-height: 60px;
-
-}
-.paragrafo{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    color: #000000;
-    text-align: justify;
-    margin: 20px 0 30px 0;
-    max-width: 500px;
-}
-footer{
-    text-align: center;
-    background: #f0f6f8;
-    padding: 50px;
-    font-size: 14px;
-    margin-top: 100px;
-}
-.img-dog{
-    display: block;
-    width: 70%;
-    height: 450px;
-    object-fit: cover;
-    margin: 80px auto 0 auto;
-    border-radius: 15px;
-}
-@media (max-width:780px) {
-    header{
-        margin: 30px 0px 144px 0px;
-        text-align: center;
-        width: 100%;
-    }
-    a{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 28px;
-        margin: 0 5px 0 0 ;
+   }
+   .prco{
     
-    }
-    .botao-login {
-        width: 90px;
-        height: 32px;
-        border-radius: 15px;
-        font-size: 16px;
-        font-weight: 500;
-}
-
-.logo {
-    width: 50%;
-    max-width: 400px;
-    display: block;
-    margin: 0 auto 50px auto;
-    margin: 0 5%;
-}
-
-.texto {
-    width: 80%;
-    text-align: center;
-}
-
-.titulo {
-    font-size: 30px;
-}
-.img-dog{
-    max-width: 350px;
-    height: 200px;
-}
-}
+   }
+   .img-card{
+    width:100%;
+   }
+   @media (max-width:780px) {
+       header{
+           margin: 30px 0px 144px 0px;
+           text-align: center;
+           width: 100%;
+       }
+       a{
+           font-weight: 500;
+           font-size: 16px;
+           line-height: 28px;
+           margin: 0 5px 0 0 ;
+       
+       }
+       .botao-login {
+           width: 90px;
+           height: 32px;
+           border-radius: 15px;
+           font-size: 16px;
+           font-weight: 500;
+   }
+   
+   .logo {
+       width: 50%;
+       max-width: 400px;
+       display: block;
+       margin: 0 auto 50px auto;
+       margin: 0 5%;
+   }
+   
+   .texto {
+       width: 80%;
+       text-align: center;
+   }
+   
+   .titulo {
+       font-size: 30px;
+   }
+   .img-dog{
+       max-width: 350px;
+       height: 200px;
+   }
+   }
+   
