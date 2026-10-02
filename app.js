@@ -6,3 +6,4 @@ async function imagemApi(){
     document.querySelector(".img-dog").src = dadosApi.message;
     console.log(respostaApi);
 }
+imagemApi()
